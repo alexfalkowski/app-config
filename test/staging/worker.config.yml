@@ -34,3 +34,4 @@ vcs:
   type: git
   git:
     url: https://github.com/alexfalkowski/app-config
+    refresh: 1s
