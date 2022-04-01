@@ -31,4 +31,4 @@ transport:
 server:
   vcs:
     git:
-      url: https://github.com/alexfalkowski/app-config
+      url: env:GITHUB_URL
