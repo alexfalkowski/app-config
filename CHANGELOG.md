@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.4.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.4.0) - 2024-05-18
+
+- [`4b2f3d5`](https://github.com/alexfalkowski/app-config/commit/4b2f3d5c1a30f3b65faaf9c9a6bf6f53b9118762) feat(bezeichner): add config (#23)
+
 ## [v0.3.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.3.0) - 2024-05-18
 
 - [`e480ea8`](https://github.com/alexfalkowski/app-config/commit/e480ea8746fff41fad549e417338d996377d30ef) feat(standort): add config (#22)
