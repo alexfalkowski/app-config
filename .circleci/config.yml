@@ -1,0 +1,35 @@
+version: 2.1
+
+jobs:
+  verify-config:
+    docker:
+      - image: alexfalkowski/go:1.22-ruby
+    working_directory: ~/app-config
+    steps:
+      - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
+      - run: make lint
+    resource_class: large
+  release:
+    docker:
+      - image: alexfalkowski/release:3.1
+    working_directory: ~/app-config
+    steps:
+      - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
+      - run: release
+    resource_class: large
+
+workflows:
+  app-config:
+    jobs:
+      - verify-config
+      - release:
+          context: gh
+          requires:
+            - verify-config
+          filters:
+            branches:
+              only: master
