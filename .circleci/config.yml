@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   verify-config:
     docker:
-      - image: alexfalkowski/go:1.22-ruby
+      - image: alexfalkowski/config:1.0
     working_directory: ~/app-config
     steps:
       - checkout
