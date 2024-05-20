@@ -34,11 +34,11 @@ telemetry:
   metrics:
     kind: otlp
     host: https://otlp-gateway-prod-eu-west-2.grafana.net/otlp/v1/metrics
-    key: env:BEZEICHNER_OTLP_KEY
+    key: /etc/bezeichner/otlp
   tracer:
     kind: otlp
     host: https://otlp-gateway-prod-eu-west-2.grafana.net/otlp/v1/traces
-    key: env:BEZEICHNER_OTLP_KEY
+    key: /etc/bezeichner/otlp
 transport:
   http:
     port: 8080
