@@ -2,11 +2,12 @@ environment: production
 client:
   v1:
     host: localhost:9090
-    user_agent: "Bezeichner/1.0"
-    timeout: 5s
     retry:
-      timeout: 10s
       attempts: 3
+      backoff: 100ms
+      timeout: 3s
+    timeout: 5s
+    user_agent: "Bezeichner/1.0"
 generator:
   applications:
     - name: uuid
@@ -43,13 +44,17 @@ telemetry:
 transport:
   http:
     port: 8080
-    user_agent: "Bezeichner/1.0"
     retry:
-      timeout: 2s
       attempts: 3
+      backoff: 100ms
+      timeout: 3s
+    timeout: 5s
+    user_agent: "Bezeichner/1.0"
   grpc:
     port: 9090
-    user_agent: "Bezeichner/1.0"
     retry:
-      timeout: 2s
       attempts: 3
+      backoff: 100ms
+      timeout: 3s
+    timeout: 5s
+    user_agent: "Bezeichner/1.0"
