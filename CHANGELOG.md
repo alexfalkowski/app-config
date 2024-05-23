@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.10.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.10.0) - 2024-05-23
+
+- [`4872643`](https://github.com/alexfalkowski/app-config/commit/4872643e659a9022418145aea92631a4645cf1b8) feat(apps): add mux: gateway (#29)
+
 ## [v0.9.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.9.0) - 2024-05-22
 
 - [`a350341`](https://github.com/alexfalkowski/app-config/commit/a350341f5e40745bc3d24a6f69c7a11c03ab564d) feat(config): add timeouts (#28)
