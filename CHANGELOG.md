@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.10.1](https://github.com/alexfalkowski/app-config/releases/tag/v0.10.1) - 2024-05-23
+
+- [`04e6eae`](https://github.com/alexfalkowski/app-config/commit/04e6eae5e8d4d9b7d2b7f009ade3546c8f448180) fix(standort): remove ip2location (#30)
+
 ## [v0.10.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.10.0) - 2024-05-23
 
 - [`4872643`](https://github.com/alexfalkowski/app-config/commit/4872643e659a9022418145aea92631a4645cf1b8) feat(apps): add mux: gateway (#29)
