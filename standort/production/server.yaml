@@ -22,9 +22,6 @@ health:
 limiter:
   kind: user-agent
   pattern: 1000-S
-location:
-  ip:
-    kind: ip2location
 telemetry:
   logger:
     level: info
