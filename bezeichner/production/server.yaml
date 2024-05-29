@@ -7,7 +7,6 @@ client:
       backoff: 100ms
       timeout: 3s
     timeout: 5s
-    user_agent: "Bezeichner/1.0"
 generator:
   applications:
     - name: uuid
@@ -50,7 +49,6 @@ transport:
       backoff: 100ms
       timeout: 3s
     timeout: 5s
-    user_agent: "Bezeichner/1.0"
   grpc:
     port: 9090
     retry:
@@ -58,4 +56,3 @@ transport:
       backoff: 100ms
       timeout: 3s
     timeout: 5s
-    user_agent: "Bezeichner/1.0"
