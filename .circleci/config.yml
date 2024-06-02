@@ -10,6 +10,8 @@ jobs:
       - run: git submodule sync
       - run: git submodule update --init
       - run: make lint
+      - run: make token
+      - run: make verify
     resource_class: large
   release:
     docker:
