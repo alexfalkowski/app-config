@@ -42,7 +42,6 @@ telemetry:
     key: /etc/secrets/otlp/token
 transport:
   http:
-    mux: gateway
     port: 8080
     retry:
       attempts: 3
