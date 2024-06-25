@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.12.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.12.0) - 2024-06-25
+
+- [`c4aee12`](https://github.com/alexfalkowski/app-config/commit/c4aee121f808cf6ea13f867d98012470ad18d022) feat(apps): remove mux (#37)
+- [`a82ad69`](https://github.com/alexfalkowski/app-config/commit/a82ad699a5412116784ae28a580d0d9dca14bf7b) build(deps): bump bin from `955891d` to `897d5f1` (#36)
+- [`5a2c148`](https://github.com/alexfalkowski/app-config/commit/5a2c148fe74e4fa9bccc18c4d637ae9636569732) build(apps): verify config (#34)
+
 ## [v0.11.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.11.0) - 2024-05-29
 
 - [`adc5915`](https://github.com/alexfalkowski/app-config/commit/adc5915a73f631b1f28349a729621d5f61faf4e1) feat(apps): remove user_agent (#33)
