@@ -14,8 +14,11 @@ verify-standort:
 verify-bezeichner:
 	servicectl http -i file:bezeichner/production/server.yaml
 
+verify-web:
+	servicectl http -i file:web/production/server.yaml
+
 # Verify configs.
-verify: verify-standort verify-bezeichner
+verify: verify-standort verify-bezeichner verify-web
 
 # Release a new version.
 release:
