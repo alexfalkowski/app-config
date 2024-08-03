@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.15.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.15.0) - 2024-08-03
+
+- [`d428f9f`](https://github.com/alexfalkowski/app-config/commit/d428f9f8ba6ddf0e8bd892794c43640b014e6f93) feat(apps): change config (#41)
+- [`13bb653`](https://github.com/alexfalkowski/app-config/commit/13bb653669cba43be1c2304af0ee198fb99e4293) build(deps): bump bin from `897d5f1` to `44badfa` (#40)
+
 ## [v0.14.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.14.0) - 2024-07-09
 
 - [`0fd6862`](https://github.com/alexfalkowski/app-config/commit/0fd6862d1d298a3a7b18ef38a0ef4bab7b25518b) feat(web): add config (#39)
