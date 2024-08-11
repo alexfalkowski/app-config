@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.16.1](https://github.com/alexfalkowski/app-config/releases/tag/v0.16.1) - 2024-08-11
+
+- [`3897b30`](https://github.com/alexfalkowski/app-config/commit/3897b3044957618f2d8b65b9181df86178a4bf74) fix(apps): use token (#45)
+
 ## [v0.16.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.16.0) - 2024-08-11
 
 - [`ca5117d`](https://github.com/alexfalkowski/app-config/commit/ca5117d906f949e647c0d1ef38edcb671419aa1e) feat(apps): add headers to telemetry (#44)
