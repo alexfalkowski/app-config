@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.16.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.16.0) - 2024-08-11
+
+- [`ca5117d`](https://github.com/alexfalkowski/app-config/commit/ca5117d906f949e647c0d1ef38edcb671419aa1e) feat(apps): add headers to telemetry (#44)
+- [`4f32d62`](https://github.com/alexfalkowski/app-config/commit/4f32d62755f8fc215e687727242e884abbc86489) build(deps): bump bin from `44badfa` to `808558f` (#43)
+
 ## [v0.15.1](https://github.com/alexfalkowski/app-config/releases/tag/v0.15.1) - 2024-08-03
 
 - [`a09f0e2`](https://github.com/alexfalkowski/app-config/commit/a09f0e284c31389bc9a8d8088032c256f11057ae) fix(apps): remove unused config (#42)
