@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   verify-config:
     docker:
-      - image: alexfalkowski/config:1.0
+      - image: alexfalkowski/config:1.5
     working_directory: ~/app-config
     steps:
       - checkout
@@ -15,7 +15,7 @@ jobs:
     resource_class: large
   release:
     docker:
-      - image: alexfalkowski/release:3.1
+      - image: alexfalkowski/release:3.5
     working_directory: ~/app-config
     steps:
       - checkout
