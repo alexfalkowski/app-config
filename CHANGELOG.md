@@ -6,6 +6,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.17.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.17.0) - 2025-01-21
+
+- [`7eeb0d7`](https://github.com/alexfalkowski/app-config/commit/7eeb0d7bbad33cbe8c3248e3c023ab47b24e9206) feat(config): add id (#57)
+- [`38504d4`](https://github.com/alexfalkowski/app-config/commit/38504d416710461caef23d973fc8193e31c1290b) build(deps): bump bin from `a278340` to `cb313fe` (#56)
+- [`8022451`](https://github.com/alexfalkowski/app-config/commit/8022451bdb762c27aa386785f922f5b75459fc8c) build(deps): bump bin from `bde1e44` to `a278340` (#55)
+- [`9b3b2fe`](https://github.com/alexfalkowski/app-config/commit/9b3b2fe964463b2d39ccf17a2a6cb2ff0dbb9df5) build(deps): bump bin from `10049eb` to `bde1e44` (#54)
+- [`742006f`](https://github.com/alexfalkowski/app-config/commit/742006ff2ce7d3aeae956fb86a698f8729f67403) build(deps): bump bin from `cf4a7d3` to `10049eb` (#53)
+- [`7797d1c`](https://github.com/alexfalkowski/app-config/commit/7797d1ce8b2416f8d6606c7a1eb8795a7c693798) build(deps): bump bin from `e8f9d73` to `cf4a7d3` (#52)
+- [`2d5b3b2`](https://github.com/alexfalkowski/app-config/commit/2d5b3b2444021f42671042b3a36fb11176b6a289) build(deps): bump bin from `8b87d26` to `e8f9d73` (#51)
+- [`455a867`](https://github.com/alexfalkowski/app-config/commit/455a8679fb2703169bb06c30023260c5eaac2989) build(deps): bump bin from `b975eab` to `8b87d26` (#50)
+- [`d07cc03`](https://github.com/alexfalkowski/app-config/commit/d07cc03ee94411c1e18426355cad0327571b4c04) build(deps): bump bin from `1eca781` to `b975eab` (#49)
+- [`1906f29`](https://github.com/alexfalkowski/app-config/commit/1906f2963a9f7ab7553aab93bf7492f870de4746) build(deps): bump bin from `4d2cb2a` to `1eca781` (#48)
+- [`5d54b66`](https://github.com/alexfalkowski/app-config/commit/5d54b66f4f9f267b94b1bd7151ef778283fabfa3) build(deps): bump bin from `41b7c8b` to `4d2cb2a` (#47)
+- [`17a48cf`](https://github.com/alexfalkowski/app-config/commit/17a48cf8117db91352885364501c376e6dd7cd7b) build(deps): bump bin from `808558f` to `41b7c8b` (#46)
+
 ## [v0.16.1](https://github.com/alexfalkowski/app-config/releases/tag/v0.16.1) - 2024-08-11
 
 - [`3897b30`](https://github.com/alexfalkowski/app-config/commit/3897b3044957618f2d8b65b9181df86178a4bf74) fix(apps): use token (#45)
