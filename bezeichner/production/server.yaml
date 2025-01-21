@@ -18,6 +18,8 @@ generator:
 health:
   duration: 1s
   timeout: 1s
+id:
+  kind: ksuid
 limiter:
   kind: user-agent
   tokens: 1000
