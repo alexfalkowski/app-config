@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.18.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.18.0) - 2025-02-21
+
+- [`a031635`](https://github.com/alexfalkowski/app-config/commit/a031635ef92bd1a51aaa59e2f9e55991d36c6d36) feat(logger): add kind: stdout (#65)
+- [`fd6f642`](https://github.com/alexfalkowski/app-config/commit/fd6f642f168b6a32a4af25f718572ebee4bef76a) build(deps): bump bin from `8592a53` to `c8030a1` (#64)
+- [`03026df`](https://github.com/alexfalkowski/app-config/commit/03026dff3e50db65053e75d6a3a005d7fbad7b4a) build(deps): bump bin from `6a2279d` to `8592a53` (#63)
+- [`4a68e60`](https://github.com/alexfalkowski/app-config/commit/4a68e60978447f03fa686458fe8714bb4030ed7f) build(deps): bump bin from `e1bf51d` to `6a2279d` (#62)
+- [`22408a1`](https://github.com/alexfalkowski/app-config/commit/22408a1ef569af1799e8f8faaa2df8c0956c1fa0) build(deps): bump bin from `3e0336a` to `e1bf51d` (#61)
+- [`a154fff`](https://github.com/alexfalkowski/app-config/commit/a154fffe8d1b0605c37b7ad7360a873e69fda71e) build(deps): bump bin from `877a42c` to `3e0336a` (#60)
+- [`db58a49`](https://github.com/alexfalkowski/app-config/commit/db58a49ef25b6a96eaf075b2a0407b9d15f9b423) build(deps): bump bin from `5b56b0c` to `877a42c` (#59)
+- [`32b90fd`](https://github.com/alexfalkowski/app-config/commit/32b90fd463478ee254fa407b8a68a85881d7c3ed) build(deps): bump bin from `cb313fe` to `5b56b0c` (#58)
+
 ## [v0.17.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.17.0) - 2025-01-21
 
 - [`7eeb0d7`](https://github.com/alexfalkowski/app-config/commit/7eeb0d7bbad33cbe8c3248e3c023ab47b24e9206) feat(config): add id (#57)
