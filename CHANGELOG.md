@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.19.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.19.0) - 2025-02-25
+
+- [`103faba`](https://github.com/alexfalkowski/app-config/commit/103faba60a91bc9c70b30db3f6e3b3206bb6213b) feat(apps): use otlp/v1/logs (#67)
+
 ## [v0.18.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.18.0) - 2025-02-21
 
 - [`a031635`](https://github.com/alexfalkowski/app-config/commit/a031635ef92bd1a51aaa59e2f9e55991d36c6d36) feat(logger): add kind: stdout (#65)
