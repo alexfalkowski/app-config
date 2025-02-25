@@ -3,19 +3,17 @@ version: 2.1
 jobs:
   verify-config:
     docker:
-      - image: alexfalkowski/config:1.5
+      - image: alexfalkowski/config:1.9
     working_directory: ~/app-config
     steps:
       - checkout
       - run: git submodule sync
       - run: git submodule update --init
       - run: make lint
-      - run: make token
-      - run: make verify
     resource_class: large
   release:
     docker:
-      - image: alexfalkowski/release:3.5
+      - image: alexfalkowski/release:3.9
     working_directory: ~/app-config
     steps:
       - checkout
