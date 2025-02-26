@@ -1,8 +1,20 @@
 include bin/build/make/git.mak
 
-# Lint files.
+# Lint the codebase.
 lint:
-	find . -name "*.yaml" -exec yq eval {} \;
+	make -C test lint
+
+# Install dependencies.
+dep:
+	make -C test dep
+
+# Run all tests.
+test:
+	make -C test test
+
+# Run all features.
+features:
+	make -C test features
 
 # Release a new version.
 release:
