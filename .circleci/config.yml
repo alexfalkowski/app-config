@@ -3,13 +3,25 @@ version: 2.1
 jobs:
   verify-config:
     docker:
-      - image: alexfalkowski/config:1.9
+      - image: alexfalkowski/ruby:1.12
     working_directory: ~/app-config
     steps:
       - checkout
       - run: git submodule sync
       - run: git submodule update --init
+      - restore_cache:
+          name: restore ruby deps
+          keys:
+            - app-config-ruby-cache-{{ checksum "test/Gemfile.lock" }}
+            - app-config-ruby-cache-
+      - run: make dep
+      - save_cache:
+          name: save ruby deps
+          key: app-config-ruby-cache-{{ checksum "test/Gemfile.lock" }}
+          paths:
+            - test/vendor
       - run: make lint
+      - run: make features
     resource_class: large
   release:
     docker:
