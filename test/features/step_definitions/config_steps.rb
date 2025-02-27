@@ -7,7 +7,8 @@ end
 Then('we should have the following values:') do |table|
   table.hashes.each do |row|
     key = row['property'].split('.')
+    kind = row['kind']
 
-    expect(@config.dig(*key)).to eq(row['value'])
+    expect(@config.dig(*key)).to send(kind, row['value'])
   end
 end
