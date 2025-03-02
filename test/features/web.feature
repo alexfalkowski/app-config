@@ -7,9 +7,8 @@ Feature: Web
     Then we should have the following values:
       | property                                | kind | value                                                           |
       | environment                             | eq   | production                                                      |
-      | telemetry.logger.kind                   | eq   | otlp                                                            |
-      | telemetry.logger.url                    | eq   | https://otlp-gateway-prod-eu-west-2.grafana.net/otlp/v1/logs    |
-      | telemetry.logger.headers.Authorization  | eq   | /etc/secrets/otlp/token                                         |
+      | telemetry.logger.kind                   | eq   | json                                                            |
+      | telemetry.logger.level                  | eq   | info                                                            |
       | telemetry.metrics.kind                  | eq   | otlp                                                            |
       | telemetry.metrics.url                   | eq   | https://otlp-gateway-prod-eu-west-2.grafana.net/otlp/v1/metrics |
       | telemetry.metrics.headers.Authorization | eq   | /etc/secrets/otlp/token                                         |
