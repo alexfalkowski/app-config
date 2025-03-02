@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.20.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.20.0) - 2025-03-02
+
+- [`2de6bec`](https://github.com/alexfalkowski/app-config/commit/2de6bec5c097960aea3cc29b800423d5ac559cfd) feat(logger): change to json, otlp does not seem to work (#73)
+- [`7966080`](https://github.com/alexfalkowski/app-config/commit/79660805757aecc5e50f9731ed4deab88366fb70) test(config): verify headers (#72)
+- [`e330ffa`](https://github.com/alexfalkowski/app-config/commit/e330ffac22a54064e7f577dd43279f95b4033e6c) test(config): allow custom matchers (#71)
+- [`8295ce9`](https://github.com/alexfalkowski/app-config/commit/8295ce97339c4cc5902ea0917f0b04f60068156b) test(config): add further checks (#70)
+- [`4335565`](https://github.com/alexfalkowski/app-config/commit/43355654cd42f25fdab7e24d91a5d8ff47ebe25d) test(config): verify using known methods (#69)
+- [`e7c2d47`](https://github.com/alexfalkowski/app-config/commit/e7c2d470fa2c338a6f6725c84cf0b5d810ef0ab8) build(ci): update to alexfalkowski/config:1.9 (#68)
+
 ## [v0.19.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.19.0) - 2025-02-25
 
 - [`103faba`](https://github.com/alexfalkowski/app-config/commit/103faba60a91bc9c70b30db3f6e3b3206bb6213b) feat(apps): use otlp/v1/logs (#67)
