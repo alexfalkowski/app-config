@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.21.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.21.0) - 2025-03-25
+
+- [`7b7a3a5`](https://github.com/alexfalkowski/app-config/commit/7b7a3a5295adf787d2a6956bba1d825bffab2655) feat(test): add migrations (#78)
+- [`ced0fec`](https://github.com/alexfalkowski/app-config/commit/ced0fec48190275611ba264cae61149881549b16) build(deps): bump bin from `8e1a9ac` to `b887116` (#77)
+- [`4c1e051`](https://github.com/alexfalkowski/app-config/commit/4c1e051c4d468eae43b0851f5832d8f4e8bb2d27) build(deps): update all (#76)
+- [`b2cb0c8`](https://github.com/alexfalkowski/app-config/commit/b2cb0c88b79394b4d312f51b7c7efc0d7e4112ea) build(deps): bump bin from `637442f` to `8e1a9ac` (#75)
+- [`cae81af`](https://github.com/alexfalkowski/app-config/commit/cae81af4d0577e45afdb19c4b6dcb1e2606b8cfb) build(deps): bump bin from `c8030a1` to `637442f` (#74)
+
 ## [v0.20.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.20.0) - 2025-03-02
 
 - [`2de6bec`](https://github.com/alexfalkowski/app-config/commit/2de6bec5c097960aea3cc29b800423d5ac559cfd) feat(logger): change to json, otlp does not seem to work (#73)
