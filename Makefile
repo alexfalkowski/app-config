@@ -9,6 +9,10 @@ lint:
 dep:
 	make -C test dep
 
+# Clean all unused dependencies.
+clean-dep:
+	make -C test clean-dep
+
 # Run all tests.
 test:
 	make -C test test
