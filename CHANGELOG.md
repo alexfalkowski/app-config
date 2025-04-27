@@ -6,6 +6,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.22.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.22.0) - 2025-04-27
+
+- [`7087161`](https://github.com/alexfalkowski/app-config/commit/7087161e24ee109dcf41982176ae4b07fbb4a7a5) feat(sasha): add new app (#91)
+- [`823437c`](https://github.com/alexfalkowski/app-config/commit/823437c98e0713c21c327992d6f6877e59da7b11) build(deps): bump bin from `b0fd780` to `926a71b` (#90)
+- [`b3e4331`](https://github.com/alexfalkowski/app-config/commit/b3e4331283b79e0668792e71f1cba39115116a5a) build(ci): use alexfalkowski/release:3.15 (#89)
+- [`24c10ef`](https://github.com/alexfalkowski/app-config/commit/24c10ef906bcf8f6057306f40b471a0e16490a00) build(deps): bump bin from `68f9c91` to `b0fd780` (#88)
+- [`b6e4140`](https://github.com/alexfalkowski/app-config/commit/b6e41409898380ce3fff05b711fa6d22aa0e946d) build(deps): bump bin from `78af843` to `68f9c91` (#87)
+- [`c15f7c8`](https://github.com/alexfalkowski/app-config/commit/c15f7c8b5ddd2097525a67332830d47edd9691a8) build(ci): use alexfalkowski/ruby:1.20 (#86)
+- [`068b93c`](https://github.com/alexfalkowski/app-config/commit/068b93c7553179a92cc0b8f00f7a47c141f86846) build(deps): bump bin from `16e2296` to `78af843` (#85)
+- [`0e4840a`](https://github.com/alexfalkowski/app-config/commit/0e4840a26eca310ffc740b84a74ae82a9b30865d) build(ci): use alexfalkowski/ruby:1.18 (#84)
+- [`caf8821`](https://github.com/alexfalkowski/app-config/commit/caf8821ed3260444a97c2139ca1d718242500b39) build(deps): bump bin from `c661929` to `16e2296` (#83)
+- [`0ca9803`](https://github.com/alexfalkowski/app-config/commit/0ca9803de219af2ed702fcf2a0f2e34fcef93ddb) build(deps): bump bin from `446c480` to `c661929` (#82)
+- [`7cfce6b`](https://github.com/alexfalkowski/app-config/commit/7cfce6b32ba737cd09a644d5045cc575efd3a292) build(deps): bump bin from `b887116` to `446c480` (#81)
+- [`a723f02`](https://github.com/alexfalkowski/app-config/commit/a723f0200f26ad4c913c13805df693bea976905a) build(ci): add help (#80)
+- [`684e77d`](https://github.com/alexfalkowski/app-config/commit/684e77d53ed00eabebca030a3ba84673898b7666) build(ci): use alexfalkowski/ruby:1.17 (#79)
+
 ## [v0.21.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.21.0) - 2025-03-25
 
 - [`7b7a3a5`](https://github.com/alexfalkowski/app-config/commit/7b7a3a5295adf787d2a6956bba1d825bffab2655) feat(test): add migrations (#78)
