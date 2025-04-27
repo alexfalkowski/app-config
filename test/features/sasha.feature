@@ -1,9 +1,9 @@
 Feature: Web
-  A website for lean-thoughts.com.
-  https://github.com/alexfalkowski/web
+  A website for sasha-adventures.com.
+  https://github.com/alexfalkowski/sasha
 
   Scenario: Verify configuration
-    When we verify "web" configuration
+    When we verify "sasha" configuration
     Then we should have the following values:
       | property                                | kind | value                                                           |
       | environment                             | eq   | production                                                      |
