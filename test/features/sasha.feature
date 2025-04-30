@@ -7,6 +7,7 @@ Feature: Web
     Then we should have the following values:
       | property                                | kind | value                                                           |
       | environment                             | eq   | production                                                      |
+      | site.articles.address                   | eq   | https://cms.sasha-adventures.com                                |
       | telemetry.logger.kind                   | eq   | json                                                            |
       | telemetry.logger.level                  | eq   | info                                                            |
       | telemetry.metrics.kind                  | eq   | otlp                                                            |
