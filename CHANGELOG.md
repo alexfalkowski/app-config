@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.23.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.23.0) - 2025-04-30
+
+- [`66040ad`](https://github.com/alexfalkowski/app-config/commit/66040ad355db44fc230f2bc674530ff6219323d6) feat(sasha): add articles url (#92)
+
 ## [v0.22.0](https://github.com/alexfalkowski/app-config/releases/tag/v0.22.0) - 2025-04-27
 
 - [`7087161`](https://github.com/alexfalkowski/app-config/commit/7087161e24ee109dcf41982176ae4b07fbb4a7a5) feat(sasha): add new app (#91)
