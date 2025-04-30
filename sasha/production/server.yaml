@@ -8,6 +8,14 @@ limiter:
   kind: user-agent
   tokens: 1000
   interval: 1s
+site:
+  articles:
+    address: https://cms.sasha-adventures.com
+    retry:
+      attempts: 3
+      backoff: 100ms
+      timeout: 10s
+    timeout: 5s
 telemetry:
   logger:
     kind: json
